@@ -17,7 +17,7 @@ function getLocalIp() {
 
 export default defineConfig({
   plugins: [react()],
-  base: 'https://n3vermin9.github.io/AboutMe/',
+  base: '/AboutMe/',
   server: {
     host: true,
     port: 5173,
