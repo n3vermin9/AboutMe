@@ -14,12 +14,13 @@ function getLocalIp() {
   return '127.0.0.1';
 }
 
+
 export default defineConfig({
   plugins: [react()],
+  base: 'https://n3vermin9.github.io/AboutMe/',
   server: {
-    host: true, // allows network access
+    host: true,
     port: 5173,
-    // Hook into server start
     configureServer(server) {
       server.httpServer?.once('listening', () => {
         const ip = getLocalIp();
