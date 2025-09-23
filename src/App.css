@@ -1,0 +1,48 @@
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation .4s forwards;
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+    transform: scale(.4);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.fade-up {
+  opacity: 0;
+  animation: fadeUpAnimation .1s forwards;
+}
+
+@keyframes fadeUpAnimation {
+  from {
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  to {
+    width: 300px;
+    height: 400px;
+    opacity: 1;
+  }
+}
+
+
+.appear {
+  filter: brightness(0);
+  animation: appearAnimation 2s forwards;
+}
+
+@keyframes appearAnimation {
+  from {
+    filter: brightness(0);
+  }
+  to {
+    filter: brightness(1);
+  }
+}
