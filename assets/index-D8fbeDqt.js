@@ -221,4 +221,4 @@ Please change the parent <Route path="${N}"> to <Route path="${N==="/"?"*":`${N}
           hover:filter hover:brightness-[1.7]
           duration-200`}),c.map(R=>L.jsx("div",{className:`h-7 w-40 border-2 ml-10 rounded-sm
             bg-gradient-to-t from-[#2d676e] to-[#96d5ff]
-            text-white text-xs flex items-center p-2`,children:R.title},R.id))]})]}),s&&L.jsx(hy,{})]})}function by(){return L.jsx(Fv,{children:L.jsxs(_v,{children:[L.jsx(_f,{path:"/",element:L.jsx(cy,{})}),L.jsx(_f,{path:"/desktop",element:L.jsx(py,{})})]})})}j0.createRoot(document.getElementById("root")).render(L.jsx(D.StrictMode,{children:L.jsx(by,{})}));
+            text-white text-xs flex items-center p-2`,children:R.title},R.id))]})]}),s&&L.jsx(hy,{})]})}function by(){return L.jsx(Fv,{basename:"/AboutMe",children:L.jsxs(_v,{children:[L.jsx(_f,{path:"/",element:L.jsx(cy,{})}),L.jsx(_f,{path:"/desktop",element:L.jsx(py,{})})]})})}j0.createRoot(document.getElementById("root")).render(L.jsx(D.StrictMode,{children:L.jsx(by,{})}));
