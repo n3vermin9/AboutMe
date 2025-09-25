@@ -1,9 +1,9 @@
 {
+  "homepage": "https://n3vermin9.github.io/AboutMe",
   "name": "tailwind",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://n3vermin9.github.io/AboutMe",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
