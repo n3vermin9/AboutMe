@@ -5,7 +5,7 @@ import Desktop from "./Desktop";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/AboutMe">
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/desktop" element={<Desktop />} />
