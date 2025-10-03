@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Folder from './Components/Folder'
 import Window from './Components/Window'
 import StartMenu from './Components/StartMenu'
+import StatusBar from './Components/StatusBar'
 import GameMain from './PurblePlace/GameMain'
 import '../src/App.css'
 
@@ -68,6 +69,7 @@ function Desktop() {
         ))}
         </div>
       </div>
+        <StatusBar>w</StatusBar>
       {openStart && <StartMenu />}
     </div>
   )

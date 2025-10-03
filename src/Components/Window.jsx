@@ -10,6 +10,7 @@ import casinoGameplayPng from "../imgs/casino_gameplay.png";
 import iShopMainPng from "../imgs/iShop_main.png";
 import iShopCartPng from "../imgs/iShop_cart.png";
 import iShopPayPng from "../imgs/iShop_pay.png";
+import iShopQuickviewPng from "../imgs/iShop_Quickview.png";
 
 function Window({ title, onClose, game }) {
   const [modalOpen, setModalOpen] = useState(false);
@@ -88,9 +89,10 @@ function Window({ title, onClose, game }) {
       link: "https://upload.wikimedia.org/wikipedia/commons/2/23/Text-txt.svg",
       content: `A responsive React web application for selling phones. Features include product listing, detailed views, shopping cart, payment, routing, and styling with Tailwind CSS. All data is stored locally without any API calls.`,
     },
-    { id: 2, name: "Casino_main.png", link: iShopMainPng },
-    { id: 3, name: "Casino_slots.png", link: iShopCartPng },
-    { id: 3, name: "Casino_slots.png", link: iShopPayPng },
+    { id: 2, name: "iShop_main.png", link: iShopMainPng },
+    { id: 3, name: "iShop_quickview.png", link: iShopQuickviewPng },
+    { id: 4, name: "iShop_cart.png", link: iShopCartPng },
+    { id: 5, name: "iShop_payment.png", link: iShopPayPng },
   ];
 
   const handlePictureClick = (link, name, content) => {
